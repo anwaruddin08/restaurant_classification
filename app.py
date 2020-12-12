@@ -10,10 +10,15 @@ import json
 import torch as pt
 import torchvision.transforms as transforms
 
+import gunicorn
+print gunicorn.__version__
+
 from PIL import Image
 
 from flask import Flask, jsonify, request, render_template
 from flask_cors import CORS
+
+
 
 
 class_index = {
