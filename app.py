@@ -11,7 +11,6 @@ import torch as pt
 import torchvision.transforms as transforms
 
 import gunicorn
-print gunicorn.__version__
 
 from PIL import Image
 
